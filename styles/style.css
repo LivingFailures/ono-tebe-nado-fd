@@ -57,7 +57,7 @@
   min-height: 757px;
   position: relative;
   z-index: 1;
-  background-image: url("/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -75,11 +75,9 @@
 
 .cover_title {
   padding: 0 50px;
-
   display: flex;
   flex-direction: column;
   gap: 20px;
-
   line-height: 115px;
   color: #ffffff;
   font-size: 100px;
@@ -204,7 +202,7 @@
 }
 
 .lots_look-more-link {
-  padding: 5px 41px;
+  margin-left: 40px;
   font-size: 20px;
   text-decoration: underline;
   color: black;
@@ -296,29 +294,15 @@
 
 .footer_social-list {
   display: flex;
-  justify-content: flex-end;
-}
-
-.footer_social-list-item {
-  display: flex;
+  width: 240px;
   gap: 48px;
-}
-
-.footer_social-link {
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 94px;
   list-style: none;
 }
 
-.footer_social-icon-you_tube {
-  width: 48px;
-  height: 48px;
-}
-
-.footer_social-icon-vk {
-  width: 48px;
-  height: 48px;
-}
-
-.footer_social-icon-pinterest {
+.footer_social-icon {
   width: 48px;
   height: 48px;
 }
