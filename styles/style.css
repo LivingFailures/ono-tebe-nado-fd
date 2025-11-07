@@ -34,7 +34,7 @@
 }
 
 .header_address {
-  margin: 45px 0px 48px 0px;
+  margin: 44px 0px 49px 0px;
   width: 289px;
   height: 98px;
   display: flex;
@@ -268,7 +268,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1100px;
-  padding: 180px 50px 0px 50px;
+  padding: 182px 50px 0px 50px;
 }
 
 .footer_address {
