@@ -6,7 +6,7 @@
 }
 
 .header_menu {
-  margin: 132px 0px 138px 50px;
+  margin: 132px 0px 136px 50px;
   text-underline-offset: 4px;
   font-size: 18px;
   height: 22px;
@@ -34,9 +34,7 @@
 }
 
 .header_address {
-  margin: 44px 0px 49px 0px;
-  width: 289px;
-  height: 98px;
+  margin: 33px 87px 39px 0px;
   display: flex;
   font-style: normal;
   justify-self: flex-end;
@@ -143,7 +141,7 @@
 }
 
 .lots_card-list {
-  margin: 0px 0px 31px;
+  padding: 0px 0px 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -210,7 +208,7 @@
 }
 
 .about {
-  margin: 0px 24px 0px 24px;
+  margin: 120px 26px 0px 24px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
@@ -220,7 +218,7 @@
 
 .about_column {
   justify-self: center;
-  margin: 3px 0px 0px -16px;
+  margin: 4px 0px 0px -14px;
 }
 
 .about_logo {
@@ -240,7 +238,7 @@
 
 .about_column_size-big {
   align-content: center;
-  margin: 20px 8px 6px;
+  margin: 17px 8px 6px;
 }
 
 .about_title {
@@ -261,23 +259,22 @@
   font-size: 20px;
   grid-area: paragraphs;
   margin: 8px 0px 0px 9px;
-  line-height: 24px;
 }
 .about_text_first {
   width: 688px;
   height: 120px;
+  margin-bottom: -3px;
 }
 .about_text_second {
   width: 693px;
   height: 168px;
-  margin-top: -2px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1100px;
-  padding: 180px 50px 0px 50px;
+  padding: 181px 50px 0px 50px;
 }
 
 .footer_address {
