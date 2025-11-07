@@ -270,13 +270,14 @@
 .about_text_second {
   width: 693px;
   height: 168px;
+  margin-top: -2px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1100px;
-  padding: 177px 50px 0px 50px;
+  padding: 180px 50px 0px 50px;
 }
 
 .footer_address {
