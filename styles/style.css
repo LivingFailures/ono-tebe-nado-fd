@@ -141,7 +141,7 @@
 }
 
 .lots_card-list {
-  margin: 28px 0px 0px 0px;
+  margin: 28px 24px 0px 24px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
