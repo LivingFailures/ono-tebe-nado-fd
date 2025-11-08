@@ -42,11 +42,10 @@
   font-size: 18px;
   gap: 3px;
   flex-direction: column;
-  width: 240px;
 }
 
 .header_address_place {
-  margin: 95px 50px 100px 0px;
+  padding: 95px 87px 100px 0px;
   justify-self: flex-end;
 }
 
