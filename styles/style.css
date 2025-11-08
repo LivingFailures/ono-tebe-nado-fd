@@ -2,17 +2,21 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  padding-bottom: 5px;
 }
 
 .header_menu {
-  padding: 111px 0px 137px 50px;
+  padding: 0px 37px 0px 50px;
   text-underline-offset: 4px;
   font-size: 18px;
-  height: 22px;
 }
 
 .header_links-list-item_no-bullit {
   list-style: none;
+}
+
+.header_link_active {
+  text-decoration: none;
 }
 
 .header_links-list {
@@ -38,7 +42,6 @@
   font-size: 18px;
   gap: 3px;
   flex-direction: column;
-  height: 98px;
   width: 240px;
 }
 
@@ -274,6 +277,10 @@
 .footer_menu-list {
   list-style: none;
   font-size: 18px;
+}
+
+.footer_menu-link_active {
+  text-decoration: none;
 }
 
 .footer_menu-link {
